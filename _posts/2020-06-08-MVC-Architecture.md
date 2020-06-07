@@ -261,7 +261,7 @@ std::unique_ptr<ISystem> ISystem::Create()
 
 .cpp 파일에 하위 클래스들을 선언하고, 구현하는 이유는, 특정 플랫폼에 한정된 기능 호출들의 직접적인 노출을 감추기 위해서이다. 다시 말하지만, 이게 꼭 강제되는 규칙은 아니다. 그저, 이 엔진을 사용하여 게임을 개발할 때, 함수 호출 하나로 사용하는 플랫폼에 맞는 로직들이 자동으로 호출되게 하기 위함이다.
 
-예를 들면, 게임 내에서 그냥 `GetSystemName()`를 호출하면, 윈도우즈 운영체제에서 `WindowsSystem::GetSystemName()`가 호출되어 `Windows`가 반환될 것이고, 맥 운영체제에선 `MacSystem::GetSystemName()`이 호출되어 `MacOS`가 반환된다. 이제 이 엔진을 통해 게임을 개발하면서, 특정 플랫폼 지원을 추가하기 위해 게임 로직을 처음부터 그게 걸맞게 새로 작성하지 않아도 된다.
+예를 들면, 게임 내에서 그냥 `GetSystemName()`를 호출하면, 윈도우즈 운영체제에서 `WindowsSystem::GetSystemName()`가 호출되어 `Windows`가 반환될 것이고, 맥 운영체제에선 `MacSystem::GetSystemName()`이 호출되어 `MacOS`가 반환된다. 이제 이 엔진을 통해 게임을 개발하면서, 특정 플랫폼 지원을 추가하기 위해 게임 로직을 처음부터 새로 작성하지 않아도 된다.
 
 이제 <span style="color:green">**ApplicationLayer**</span>가 <span style="color:green">**ISystem**</span>을 관리하게 하면 된다. 초기화 단계에서 생성하고, 정상적으로 초기화가 되었는지 확인하는 것을 잊지 말자.
 
