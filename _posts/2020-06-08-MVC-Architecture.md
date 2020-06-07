@@ -152,11 +152,11 @@ public:
 앞으로 작성할 주된 하위 시스템들은 모두 이 클래스에서 관리될 것이다. 앞서 설명한 것 처럼, 모든 하위 시스템들을 초기화시키는 `Initialize()`, 게임 로직을 돌리는 `Run()`, 그리고 게임 내 모든 로직과 엔진 내 모든 하위 시스템들을 종료시키는 `Shutdown()`이 있다. 정적 변수로 두는 것은 좋은 생각이 아니라고 했지만, 프로그램의 인스턴스가 단 1개만이 존재하도록 하기 위해서와, 추후 추가될 <span style="color:green">**Logging**</span> 클래스를 사용하기 위하여, 이 클래스에는 싱글턴 패턴이 사용되었다. 또한, 이 클래스는 엔진의 도입부 역할을 담당하므로 지연 초기화로 인한 문제가 발생하지 않는다.
 
 그리고 게임이 시작 전 추후 하위 시스템들의 설정하는 데 쓰일 값들을 저장하기 위해서, key-value pair인 `ConfigMap`을 준비해놓았다.
-
 <br>
-<img src="../assets/img/GameEngine/Post2/SystemHeader.png" width="1200">
 
 ## **System**
+<img src="../assets/img/GameEngine/Post2/SystemHeader.png" width="1200">
+
 <!--
 ```cpp 
 /**
