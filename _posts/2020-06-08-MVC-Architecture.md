@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 🎮게임 엔진 개발기(2) - MVC 패턴을 이용한 아키텍처(1)
+title: 🎮게임 엔진 개발기(2) - MVC 패턴을 이용한 게임 엔진 아키텍처(1)
 date: 2020-06-07 03:18:00
 description: 
 img: GameEngine/Post2/BackGround.jpg # Add image post (optional)
