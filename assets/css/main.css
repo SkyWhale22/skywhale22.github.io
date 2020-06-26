@@ -1,46 +1,46 @@
 .highlight {
-  background-color: #faf9f9;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
+  background-color: #282b2e;
+  -webkit-border-radius: 12px;
+          border-radius: 12px;
   margin: 0;
 }
 
-.highlighter-rouge {
+/* .highlighter-rouge {
   color: #87314e;
   font-weight: 400;
   border: 1px solid #607D8B;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   padding: 0.1rem 0.5rem;
-}
+} */
 
 .highlight .hll {
   background-color: #ffc;
 }
 
 .highlight .c {
-  color: #999;
+  color: #6272A4;
 }
 
 /* Comment */
 .highlight .err {
-  color: #a00;
+  color: #6272A4;
   background-color: #faa;
 }
 
 /* Error */
 .highlight .k {
-  color: #069;
+  color: #FF79C6;
 }
 
 /* Keyword */
 .highlight .o {
-  color: #555;
+  color: #FF79C6;
 }
 
 /* Operator */
 .highlight .cm {
-  color: #09f;
+  color: #6272A4;
   font-style: italic;
 }
 
@@ -51,12 +51,12 @@
 
 /* Comment.Preproc */
 .highlight .c1 {
-  color: #999;
+  color: #6272A4;
 }
 
 /* Comment.Single */
 .highlight .cs {
-  color: #999;
+  color: #6272A4;
 }
 
 /* Comment.Special */
@@ -134,7 +134,7 @@
 
 /* Keyword.Reserved */
 .highlight .kt {
-  color: #078;
+  color: #FF79C6;
 }
 
 /* Keyword.Type */
@@ -144,7 +144,7 @@
 
 /* Literal.Number */
 .highlight .s {
-  color: #d44950;
+  color: #F1FA8C;
 }
 
 /* Literal.String */
@@ -154,17 +154,25 @@
 
 /* Name.Attribute */
 .highlight .nb {
-  color: #366;
+  color: #BD93F9;
+}
+
+.highlight .n {
+  color: #69FF94;
+}
+
+.highlight .n1 {
+  color: #ffc;
 }
 
 /* Name.Builtin */
 .highlight .nc {
-  color: #0a8;
+  color: #69FF94;
 }
 
 /* Name.Class */
 .highlight .no {
-  color: #360;
+  color: #69FF94;
 }
 
 /* Name.Constant */
@@ -189,7 +197,7 @@
 
 /* Name.Function */
 .highlight .nl {
-  color: #99f;
+  color: #FF79C6;
 }
 
 /* Name.Label */
@@ -210,6 +218,10 @@
 /* Name.Variable */
 .highlight .ow {
   color: #000;
+}
+
+.highlight .p {
+  color: #bbb;
 }
 
 /* Operator.Word */
@@ -305,7 +317,7 @@
 
 /* Name.Variable.Class */
 .highlight .vg {
-  color: #033;
+  color: #8BE9FD;
 }
 
 /* Name.Variable.Global */

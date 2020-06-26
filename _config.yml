@@ -36,6 +36,15 @@ paginate_path: /page:num/
 
 # Build settings
 markdown: kramdown
+kramdown:
+    highlighter: rouge
+    syntax_highlighter_opts:
+        block:
+            line_numbers: true
+
+sass:
+    sass_dir: _sass
+    style: compressed
 
 plugins:
   - jekyll-paginate
@@ -43,4 +52,6 @@ plugins:
   - jekyll-sitemap
 
 include: [_pages]
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json"]
+# "assets/css/sass/"
+
