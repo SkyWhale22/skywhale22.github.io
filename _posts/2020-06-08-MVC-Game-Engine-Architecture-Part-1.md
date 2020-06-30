@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 🎮게임 엔진 개발기(2) - MVC 패턴을 이용한 게임 엔진 아키텍처(1)
+title: 🎮게임 엔진 개발기(2) - MVC 패턴을 이용한 게임 엔진 아키텍처 파트 1
 date: 2020-06-07 03:18:00
 description: 
 img: GameEngine/Post2/BackGround.jpg # Add image post (optional)
@@ -94,8 +94,8 @@ View는 게임 내에서 여러 가지 구현의 조합으로 존재할 수 있�
 ## **ApplicationLayer**
 <!-- <img src="../assets/img/GameEngine/Post2/AppLayerHeader.png" width="750"> -->
 
-{% highlight cpp %}
-/**
+```cpp
+/*
 *  ApplicationLayer.h
 * 
 *  Copyright (c) 2020 Junyoung Kim. All rights reserved.
@@ -113,12 +113,8 @@ public:
 protected:
     ConfigMap m_configs;
 
-private:
-    static ApplicationLayer* s_pAppLayer;
-    int test;
-
 public:
-    static ApplicationLayer* GetInstance(); 
+    static ApplicationLayer& GetInstance(); 
     virtual ~ApplicationLayer() {}
 
     // ===== Lifetime =====
@@ -126,13 +122,11 @@ public:
     void Run();
     void Shutdown();
 
-
     // ===== Engine Configuration =====
     const ConfigMap GetConfiguration() const;
     bool LoadConfig(std::string_view pFileName);
 };
-
-{% endhighlight %}
+```
 
 클래스를 설명하기에 앞서, `Lifetime`부분의 `Initialize()`와 `Shutdown()` 보도록 하자.<br> 생성자와 소멸자가 있는데 뭐하러 초기화와 종료를 하는 함수를 따로 만들어뒀을까? 그 이유를 설명하겠다.
 
