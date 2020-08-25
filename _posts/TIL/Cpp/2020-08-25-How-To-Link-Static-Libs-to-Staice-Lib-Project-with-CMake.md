@@ -42,14 +42,14 @@ target_link_libraries(<target name>
 
 target_link_directories(${ProjectName} 
     PUBLIC
-			${CMAKE_CURRENT_SOURCE_DIR}/SDL2/lib/
+	  ${CMAKE_CURRENT_SOURCE_DIR}/SDL2/lib/
       ${CMAKE_CURRENT_SOURCE_DIR}/SDL2_image/lib/
       ${CMAKE_CURRENT_SOURCE_DIR}/SDL2_mixer/lib/
 )
 
 target_link_libraries(${ProjectName} 
     PUBLIC
-				SDL2
+		SDL2
         SDL2_image
         SDL2_mixer
 )
