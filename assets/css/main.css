@@ -35,7 +35,7 @@
 
 /* Keyword */
 .highlight .o {
-  color: #FF79C6;
+  color: #222222;
 }
 
 /* Operator */
@@ -167,7 +167,7 @@
 
 /* Name.Builtin */
 .highlight .nc {
-  color: #f09103;
+  color: #be7508;
 }
 
 /* Name.Class */
@@ -197,7 +197,7 @@
 
 /* Name.Function */
 .highlight .nl {
-  color: #4873eb;
+  color: #3b61c9;
 }
 
 /* Name.Label */
