@@ -1,5 +1,5 @@
 .highlight {
-  background-color: #7c848b;
+  background-color: #ffffff;
   -webkit-border-radius: 12px;
           border-radius: 12px;
   margin: 0;
@@ -40,7 +40,7 @@
 
 /* Operator */
 .highlight .cm {
-  color: #ffffff;
+  color: #6272A4;
   font-style: italic;
 }
 
