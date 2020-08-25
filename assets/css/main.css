@@ -30,7 +30,7 @@
 
 /* Error */
 .highlight .k {
-  color: #FF79C6;
+  color: #4873eb;
 }
 
 /* Keyword */
@@ -134,7 +134,7 @@
 
 /* Keyword.Reserved */
 .highlight .kt {
-  color: #FF79C6;
+  color: #4873eb;
 }
 
 /* Keyword.Type */
@@ -158,7 +158,7 @@
 }
 
 .highlight .n {
-  color: #69FF94;
+  color: #f09103;
 }
 
 .highlight .n1 {
@@ -167,7 +167,7 @@
 
 /* Name.Builtin */
 .highlight .nc {
-  color: #69FF94;
+  color: #f09103;
 }
 
 /* Name.Class */
@@ -197,7 +197,7 @@
 
 /* Name.Function */
 .highlight .nl {
-  color: #FF79C6;
+  color: #4873eb;
 }
 
 /* Name.Label */
@@ -221,7 +221,7 @@
 }
 
 .highlight .p {
-  color: #bbb;
+  color: rgb(44, 43, 43);
 }
 
 /* Operator.Word */
@@ -334,7 +334,7 @@
 .css .o,
 .css .o + .nt,
 .css .nt + .nt {
-  color: #999;
+  color: rgb(43, 42, 42);
 }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
