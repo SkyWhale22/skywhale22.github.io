@@ -16,7 +16,7 @@ author: Junyoung Kim # Add name author (optional)
 그래서 이곳에 '게임 엔진 개발기' 시리즈를 연재하며, 엔진을 조금씩 소개하면서 배웠던 내용과 느꼈던 점을 공유하려 한다. 아직 고쳐야 할 점과 추가해야한 점이 많지만, 많은 사람들에게 도움이 되길 바란다.  
 
 
-# Whale Engine
+# Beluga Engine
 내가 만든 게임 엔진의 이름은 '**Beluga Engine**' 이다. 알아보니 *LGM Games* 라는 게임사에서 이미 사용중인 이름이다😒. 이름은 추후 변경하는 걸로 하고, 이 부분에선 **Beluga Engine**의 핵심 부분들을 간력하게 나열한다.
 
 ## **사용된 라이브러리**
@@ -41,7 +41,6 @@ author: Junyoung Kim # Add name author (optional)
 - Actor-Component Model
 - Process
 - Event
-- Pool Memory Allocator
 - Resource Compression & decompression
   - *.bin*
 - Resource Cache
