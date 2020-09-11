@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Idea - CMake사용하여 정적 라이브러리 프로젝트에 다른 정적 라이브러리들을 연결하기. 
+title: Idea - 연재하고 싶은 시리즈 아이디어 
 date:   2020-09-10 16:06:46
 description: 
 img: Idea/Thumbnail.jpg # Add image post (optional)
