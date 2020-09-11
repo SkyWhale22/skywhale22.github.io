@@ -11,12 +11,12 @@ author-pic: SkyWhale-logo.png
 about-author: 도전적이고, 창의적인 게임 개발자. 미국 소재 대학 휴학중. 현재 Beluga 엔진을 제작하며, 모바일 게임 '포포링 아일랜드'에서 프로그래머로써 참여하면서 산업기능요원을 준비하고 있음. Microsoft C++ MVP가 되는것과 C++ ISO에서 C++의 미래를 함께 만들어나가는것을 목표로 하고 있음.
 
 # Contact links
-email: jun.# Add your Email address
-# phone: # Add your Phone number
-# website: # Add your website, do not add http://
+email: jun.gamedev@gmail.com # Add your Email address
+phone: 010-5143-6245 
+website: jungamedev.github.io # Add your website, do not add http://
 # linkedin: # Add your Linkedin handle
-github: SkyWhale22 # Add your Github handle
-twitter: '@jun.gamedev' # Add your Twitter handle
+github: JunGameDev # Add your Github handle
+twitter: '@Jun.GameDev' # Add your Twitter handle
 facebook: kimsuit22 # Add your Facebook handle
 instagram: jun_gamedev # Add your Instagram handle
 # pinterest: # Add your Pinterest handle
@@ -25,7 +25,7 @@ instagram: jun_gamedev # Add your Instagram handle
 # mailchimp: # Add your MailChimp form identifier.
 
 # Disqus
-discus_identifier: skywhale22-github-io # Add your discus identifier
+discus_identifier: JunGameDev-github-io # Add your discus identifier
 
 # Tracker
 # analytics: # Google Analytics
